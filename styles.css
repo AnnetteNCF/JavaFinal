@@ -73,13 +73,13 @@ a:link {
 	align-items: center;
 	background-color: orchid;
 	border-radius: 50%;
-	height: 60px;
-	width: 60px;
+	height: 46px;
+	width: 46px;
 	position: absolute;
 	right: 2em;
 	bottom: 2em;
 }
 
 .tool-icon {
-	width: 32px;
+	width: 24px;
 }

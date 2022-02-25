@@ -74,6 +74,28 @@ a:link {
 	justify-content: center;
 }
 
+/* .toolbox-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: mediumslateblue;
+	border-radius: 50%;
+	height: 46px;
+	width: 46px;
+	position: absolute;
+	right: 2em;
+	bottom: 2em;
+	border: none;
+}
+div.toolbox-container.open {
+	bottom: 4em;
+	height: 300px;
+	border-radius: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+} */
+
 .toolbox-container {
 	display: flex;
 	justify-content: center;
@@ -85,10 +107,42 @@ a:link {
 	position: absolute;
 	right: 2em;
 	bottom: 2em;
+	border: none;
 }
+div.toolbox-container.open {
+	bottom: 4em;
+	height: 300px;
+	border-radius: 3em;
+	/* position: relative; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/* button.toolbox-container.open {
+	height: 300px;
+	border-radius: 3em;
+} */
+
+/* button:focus {
+	outline: none;
+	border: none;
+} */
 
 .tool-icon {
 	width: 24px;
+}
+
+.color-container {
+	display: none;
+	z-index: 10;
+	width: 32px;
+	height: 32px;
+	background-color: midnightblue;
+	border-radius: 50%;
+}
+
+.color-container.color-btn-open {
+	display: block;
 }
 
 /* THIS IS FOR THE SIGNIN PAGE */
